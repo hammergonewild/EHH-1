@@ -5,28 +5,28 @@ import useInView from '../hooks/useInView';
 const mainLinks = [
   {
     title: "Zimmer & Suiten",
-    description: "Großzügig, luxuriös mit antiquem Touch und Betten von höchstem Schlafkomfort",
+    description: "Großzügig, luxuriös mit antiquem Touch und Betten von höchstem Schlafkomfort (wird verlinkt)",
     icon: Bed,
     image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     link: "#accommodations"
   },
   {
     title: "Gaumenfreuden von früh bis spät",
-    description: "Viel gerühmtes Frühstücksbuffet und Restaurant mit Michelin Stern",
+    description: "Morgens am Frühstücksbuffet schlemmen, abends Kulinarik auf Sterne Niveau genießen (wird verlinkt)",
     icon: Utensils,
     image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     link: "#dining"
   },
   {
     title: "Panorama SPA, Gym & Wellness",
-    description: "Erholen, entspannen und auspowern mit Blick über die Stadt und den Wald nebenan",
+    description: "Erholen, entspannen und auspowern mit Blick über die Stadt und den Wald nebenan (wird verlinkt)",
     icon: Dumbbell,
     image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     link: "#wellness"
   },
   {
     title: "Perfekte Lage für Entdeckungstouren",
-    description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke erreichen Sie bequem zu Fuß",
+    description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke erreichen Sie bequem zu Fuß (wird verlinkt)",
     icon: MapPin,
     image: "https://images.unsplash.com/photo-1696347932229-60d88e325e5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     link: "#explore"
@@ -36,14 +36,14 @@ const mainLinks = [
 const additionalLinks = [
   {
     title: "Stilvoll Feiern & Tagen",
-    description: "Die perfekte Kulisse für Veranstaltungen von denen Ihre Gäste noch Ihren Enkeln vorschwärmen werden",
+    description: "Die perfekte Kulisse für Veranstaltungen von denen Ihre Gäste noch Ihren Enkeln vorschwärmen werden (wird verlinkt)",
     icon: PartyPopper,
     image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     link: "#events"
   },
   {
     title: "Bar & Smokers Lounge",
-    description: "Der ideale Rahmen, um bei einem fancy Cocktail oder edlen Tropfen den Tag ausklingen zu lassen",
+    description: "Der ideale Rahmen, um bei einem fancy Cocktail oder edlen Tropfen den Tag ausklingen zu lassen (wird verlinkt)",
     icon: Wine,
     image: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
     link: "#bar"
