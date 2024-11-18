@@ -12,9 +12,12 @@ export default function Welcome() {
           isInView ? 'is-visible' : ''
         }`}
       >
-        <h1 className="text-4xl md:text-5xl font-karma font-normal mb-8">
-          Der Europäische Hof
-        </h1>
+        <p className="text-hotel-gold text-sm tracking-widest uppercase font-medium mb-4 font-sans">
+          Reich an Tradition & verschwenderisch mit Herzlichkeit
+        </p>
+        <h2 className="text-3xl md:text-4xl font-karma text-gray-900 mb-8">
+          Ihr fünf Sterne Superior Grand-Hotel im Herzen Heidelbergs
+        </h2>
         <div className="text-gray-600 leading-relaxed text-lg space-y-6 font-sans font-light">
           <p>
             Hier werden Sie (erneut) Ihr Herz an und in Heidelberg verlieren - und an uns.
