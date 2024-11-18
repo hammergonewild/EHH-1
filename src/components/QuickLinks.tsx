@@ -28,7 +28,7 @@ const mainLinks = [
     title: "Perfekte Lage für Entdeckungstouren",
     description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke erreichen Sie bequem zu Fuß",
     icon: MapPin,
-    image: "/images/heidelberg.jpg",
+    image: "/images/heidelberg-location.jpg",
     link: "#explore"
   }
 ];
