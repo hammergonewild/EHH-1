@@ -5,7 +5,7 @@ import useInView from '../hooks/useInView';
 const mainLinks = [
   {
     title: "Stilvoll wohnen & himmlisch schlafen",
-    description: "Großzügige, luxuriö eingerichtete Zimmer und Suiten mit antiquem Touch und Betten für höchstem Schlafkomfort (wird verlinkt)",
+    description: "Großzügige, luxuriös eingerichtete Zimmer und Suiten mit antiquem Touch und Betten für höchstem Schlafkomfort (wird verlinkt)",
     icon: Bed,
     image: "https://images.heidelberg-location.jpg",
     link: "#accommodations"
