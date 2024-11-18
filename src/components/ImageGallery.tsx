@@ -57,7 +57,7 @@ const images = [
   {
     src: "/images/pfalz.jpg",
     span: "",
-    title: "Weinverkostung in der Pfalz"
+    title: "Weinwanderungen in der Pfalz"
   }
 ];
 
