@@ -4,29 +4,29 @@ import useInView from '../hooks/useInView';
 
 const mainLinks = [
   {
-    title: "Zimmer & Suiten",
-    description: "Großzügig, luxuriös mit antiquem Touch und Betten von höchstem Schlafkomfort",
+    title: "Stilvoll wohnen & himmlisch schlafen",
+    description: "Großzügige, luxuriös individuell eingerichtete Zimmer und Suiten mit antiquem Touch und Betten für höchstem Schlafkomfort (wird verlinkt)",
     icon: Bed,
     image: "/images/zimmer-suiten.jpg",
     link: "#accommodations"
   },
   {
     title: "Gaumenfreuden von früh bis spät",
-    description: "Viel gerühmtes Frühstücksbuffet und Restaurant mit Michelin Stern",
+    description: "Morgens am beliebten Frühstücksbuffet schlemmen, abends Kulinarik auf Sterne Niveau genießen (wird verlinkt)",
     icon: Utensils,
     image: "/images/restaurant.jpg",
     link: "#dining"
   },
   {
-    title: "Panorama SPA, Gym & Wellness",
-    description: "Erholen, entspannen und auspowern mit Blick über die Stadt und den Wald nebenan",
+    title: "Entspannen & Auftanken mit Aussicht",
+    description: "Im Panorama SPA schwimmen oder entpannen Sie mit Blick über die Stadt und den Wald nebenan (wird verlinkt)",
     icon: Dumbbell,
     image: "/images/spa.jpg",
     link: "#wellness"
   },
   {
-    title: "Perfekte Lage für Entdeckungstouren",
-    description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke erreichen Sie bequem zu Fuß",
+    title: "Sehenswürdigkeiten fast zum Laufen nah",
+    description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke oder den Philosophenweg erreichen Sie bequem zu Fuß (wird verlinkt",
     icon: MapPin,
     image: "/images/heidelberg-location.jpg",
     link: "#explore"
@@ -42,7 +42,7 @@ const additionalLinks = [
     link: "#events"
   },
   {
-    title: "Bar & Smokers Lounge",
+    title: "Bar, Kaminzimmer & Smokers Lounge",
     description: "Der ideale Rahmen, um bei einem fancy Cocktail oder edlen Tropfen den Tag ausklingen zu lassen",
     icon: Wine,
     image: "/images/bar.jpg",
