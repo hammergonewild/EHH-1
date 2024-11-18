@@ -4,15 +4,15 @@ import useInView from '../hooks/useInView';
 
 const mainLinks = [
   {
-    title: "Zimmer & Suiten",
-    description: "Großzügig, luxuriös mit antiquem Touch und Betten von höchstem Schlafkomfort (wird verlinkt)",
+    title: "Stilvoll wohnen & himmlisch schlafen",
+    description: "Großzügige, luxuriö eingerichtete Zimmer und Suiten mit antiquem Touch und Betten für höchstem Schlafkomfort (wird verlinkt)",
     icon: Bed,
     image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     link: "#accommodations"
   },
   {
     title: "Gaumenfreuden von früh bis spät",
-    description: "Morgens am Frühstücksbuffet schlemmen, abends Kulinarik auf Sterne Niveau genießen (wird verlinkt)",
+    description: "Morgens am beliebten Frühstücksbuffet schlemmen, abends Kulinarik auf Sterne Niveau genießen (wird verlinkt)",
     icon: Utensils,
     image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     link: "#dining"
@@ -25,8 +25,8 @@ const mainLinks = [
     link: "#wellness"
   },
   {
-    title: "Perfekte Lage für Entdeckungstouren",
-    description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke erreichen Sie bequem zu Fuß (wird verlinkt)",
+    title: "Sehenswürdigkeiten fast zum Greifen nah",
+    description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke oder den Philosophenweg erreichen Sie bequem zu Fuß (wird verlinkt)",
     icon: MapPin,
     image: "https://images.unsplash.com/photo-1696347932229-60d88e325e5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     link: "#explore"
