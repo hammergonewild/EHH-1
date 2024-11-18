@@ -57,7 +57,7 @@ export default function Navigation() {
             <div className="flex justify-between items-center h-[100px]">
               <div className="flex items-center">
                 <img 
-                  src={isScrolled ? "/logos/logo-gold.png" : "/logos/logo-white.png"}
+                  src={isScrolled ? "/logos/logo-black.png" : "/logos/logo-white.png"}
                   alt="Der Europäische Hof"
                   className="h-[100px] w-auto"
                 />
@@ -119,7 +119,7 @@ export default function Navigation() {
           {/* Logo Area */}
           <div className="flex justify-center items-center h-[100px]">
             <img 
-              src={isScrolled ? "/logos/logo-gold.png" : "/logos/logo-white.png"}
+              src={isScrolled ? "/logos/logo-black.png" : "/logos/logo-white.png"}
               alt="Der Europäische Hof"
               className="h-[100px] w-auto"
             />
