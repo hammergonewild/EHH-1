@@ -19,9 +19,9 @@ export default function Navigation() {
       {/* Desktop Navigation */}
       <div className="hidden lg:block">
         {/* Info Bar */}
-        <div className="fixed w-full top-0 z-50 bg-hotel-gold text-white h-8">
+        <div className="fixed w-full top-0 z-50 bg-hotel-gold text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-full">
+            <div className="flex justify-between items-center py-2">
               <div className="flex space-x-6 text-sm">
                 <a href="tel:+496221515-0" className="hover:text-white/80 transition-colors flex items-center space-x-2">
                   <Phone className="h-3.5 w-3.5" />
@@ -50,7 +50,7 @@ export default function Navigation() {
         </div>
 
         {/* Main Navigation */}
-        <nav className={`fixed w-full z-40 transition-all duration-300 top-8 ${
+        <nav className={`fixed w-full z-40 transition-all duration-300 top-[40px] ${
           isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
         }`}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -109,8 +109,11 @@ export default function Navigation() {
 
       {/* Mobile Navigation */}
       <div className="lg:hidden">
+        {/* Mobile Info Bar */}
+        <div className="fixed w-full top-0 z-50 bg-hotel-gold h-8" />
+
         {/* Mobile Header */}
-        <div className={`fixed w-full z-50 transition-all duration-300 ${
+        <div className={`fixed w-full z-40 transition-all duration-300 top-8 ${
           isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-black/30 backdrop-blur-sm'
         }`}>
           {/* Logo Area */}
