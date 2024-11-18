@@ -11,7 +11,7 @@ const mainLinks = [
     link: "#accommodations"
   },
   {
-    title: "Gaumenfreuden von früh bis spät",
+    title: "Vielfältige Gaumenfreuden von früh bis spät",
     description: "Morgens am beliebten Frühstücksbuffet schlemmen, abends Kulinarik auf Sterne Niveau genießen (wird verlinkt)",
     icon: Utensils,
     image: "/images/restaurant.jpg",
