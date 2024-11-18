@@ -23,13 +23,7 @@ export default function Welcome() {
             Hier werden Sie (erneut) Ihr Herz an und in Heidelberg verlieren - und an uns.
           </p>
           <p>
-            Was auch immer Sie in eine der romantischsten Städte Deutschlands führt, wird sind bekannt dafür, 
-            alles zu tun, damit Sie am liebsten für immer bleiben wollen würden. 
-            An diesem Ort, der Sie an die Zeiten erinnert, als die Welt noch in Ordnung war. 
-            Ein privat geführtes Luxus-Hotel in dem Sie sich gesehen fühlen, respektvoll wertgeschätzt und
-            und gebadet in verschwenderischer Herzlichkeit. Und selbst wenn Ihr Aufenthalt in 
-            Heidelberg einen medizinischen Anlass haben sollte, finden Sie im Europäischen Hof 
-            für sich und Ihre Angehörigen ein Zuhause auch in schwierigen Zeiten.
+           Was auch immer Sie nach Heidelberg, eine der romantischsten Städte Deutschlands, führt – wir sind hier, um Ihren Aufenthalt unvergesslich zu machen. Damit Sie das Gefühl haben, nie wieder weggehen zu wollen. Ein Ort, der Erinnerungen an eine Zeit weckt, in der die Welt noch in Ordnung war. In unserem privat geführten Luxushotel erleben Sie echte Wertschätzung, tiefe Aufmerksamkeit und eine herzliche Gastfreundschaft, die Sie umhüllt wie die Umarmung eines Freundes. Selbst wenn Ihr Besuch medizinischen Ursprungs ist, finden Sie bei uns und für Ihre Liebsten ein Zuhause – auch in herausfordernden Zeiten.
           </p>
           <p>
             Holen Sie sich nun einen Vorgeschmack auf das, was Sie bei uns erwartet.
