@@ -79,7 +79,7 @@ export default function ImageGallery() {
             Hotel Impressionen
           </p>
           <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-8">
-            Die beliebtesten Spots unserer Gäste
+            Die beliebtesten Spots unserer Gäste im Hotel, in Heidelberg und drumherum
           </h2>
         </div>
 
