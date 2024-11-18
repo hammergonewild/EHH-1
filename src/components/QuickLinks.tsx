@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bed, Utensils, Dumbbell, MapPin, PartyPopper, Wine } from 'lucide-react';
+import { Bed, Utensils, Droplets, MapPin, PartyPopper, Wine } from 'lucide-react';
 import useInView from '../hooks/useInView';
 
 const mainLinks = [
@@ -20,7 +20,7 @@ const mainLinks = [
   {
     title: "Entspannen & Auftanken mit Aussicht",
     description: "Im Panorama SPA schwimmen oder entpannen Sie mit Blick über die Stadt und den Wald nebenan (wird verlinkt)",
-    icon: Dumbbell,
+    icon: Dropletsl,
     image: "/images/spa.jpg",
     link: "#wellness"
   },
