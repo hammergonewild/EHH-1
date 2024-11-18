@@ -23,11 +23,11 @@ export default function Navigation() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-8">
               <div className="flex space-x-6 text-sm">
-                <a href="tel:+496221515-0" className="hover:text-amber-200 transition-colors flex items-center space-x-2">
+                <a href="tel:+496221515-0" className="hover:text-white/90 transition-colors flex items-center space-x-2">
                   <Phone className="h-3.5 w-3.5" />
                   <span>+49 6221 515-0</span>
                 </a>
-                <a href="mailto:info@europaeischerhof.com" className="hover:text-amber-200 transition-colors flex items-center space-x-2">
+                <a href="mailto:info@europaeischerhof.com" className="hover:text-white/90 transition-colors flex items-center space-x-2">
                   <Mail className="h-3.5 w-3.5" />
                   <span>info@europaeischerhof.com</span>
                 </a>
@@ -35,12 +35,12 @@ export default function Navigation() {
                   href="https://www.google.com/maps/dir//Europäischer+Hof+Heidelberg" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="hover:text-amber-200 transition-colors flex items-center space-x-2"
+                  className="hover:text-white/90 transition-colors flex items-center space-x-2"
                 >
                   <Navigation2 className="h-3.5 w-3.5" />
                   <span>Anfahrt</span>
                 </a>
-                <a href="#gallery" className="hover:text-amber-200 transition-colors flex items-center space-x-2">
+                <a href="#gallery" className="hover:text-white/90 transition-colors flex items-center space-x-2">
                   <Image className="h-3.5 w-3.5" />
                   <span>Bilder-Galerie</span>
                 </a>
@@ -124,7 +124,7 @@ export default function Navigation() {
             />
           </div>
 
-          {/* Mobile Icon Bar */}
+          {/* Mobile Icon Bar - Now always visible */}
           <div className={`w-full ${isScrolled ? 'bg-white/95' : 'bg-black/20'}`}>
             <div className="grid grid-cols-5 h-16">
               <a href="#book" className="flex flex-col items-center justify-center text-center">
