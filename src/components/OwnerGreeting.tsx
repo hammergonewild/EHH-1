@@ -18,7 +18,7 @@ export default function OwnerGreeting() {
       <div className="relative min-h-[80vh] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
         <div 
           ref={ref}
-          className={`w-full md:w-1/2 lg:w-1/3 py-26 fade-in-section ${
+          className={`w-full md:w-1/2 lg:w-1/3 py-28 fade-in-section ${
             isInView ? 'is-visible' : ''
           }`}
         >
