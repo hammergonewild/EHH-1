@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hotel, Phone, Mail, MapPin, Heart } from 'lucide-react';
+import { Phone, Mail, MapPin, Heart } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -11,11 +11,11 @@ export default function Footer() {
           <div className="lg:col-span-4 grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Contact Information */}
             <div>
-              <div className="flex items-center space-x-2 mb-8">
+              <div className="mb-8">
                 <img 
                   src="/logos/logo-white.png"
                   alt="Der Europäische Hof"
-                  className="h-12 w-auto"
+                  className="h-[120px] w-auto"
                 />
               </div>
               <div className="space-y-4 text-white/90">
