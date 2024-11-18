@@ -24,7 +24,7 @@ const images = [
     span: "md:col-span-2",
     title: "Sommerrestaurant"
   },
-    {
+  {
     src: "/images/smokers.jpg",
     span: "",
     title: "Smokerslounge"
