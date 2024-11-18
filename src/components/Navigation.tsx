@@ -108,13 +108,12 @@ export default function Navigation() {
       </div>
 
       {/* Mobile Navigation */}
-      <div className="lg:hidden">
-        {/* Mobile Header */}
-        <div className="fixed w-full z-50">
+      <div className="lg:hidden fixed w-full z-50">
+        <div className={`transition-colors duration-300 ${
+          isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-black/30 backdrop-blur-sm'
+        }`}>
           {/* Logo Area */}
-          <div className={`flex justify-center items-center h-[100px] ${
-            isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-black/30 backdrop-blur-sm'
-          }`}>
+          <div className="flex justify-center items-center h-[100px]">
             <img 
               src={isScrolled ? "/logos/logo-black.png" : "/logos/logo-white.png"} 
               alt="Der Europäische Hof"
@@ -123,32 +122,30 @@ export default function Navigation() {
           </div>
 
           {/* Mobile Icon Bar */}
-          <div className={`w-full ${isScrolled ? 'bg-white/95' : 'bg-black/20'}`}>
-            <div className="grid grid-cols-5 h-16">
-              <a href="#book" className="flex flex-col items-center justify-center text-center">
-                <Calendar className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
-                <span className="text-xs mt-1 text-white">Buchen</span>
-              </a>
-              <a href="tel:+496221515-0" className="flex flex-col items-center justify-center text-center">
-                <Phone className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
-                <span className="text-xs mt-1 text-white">Anrufen</span>
-              </a>
-              <a href="#route" className="flex flex-col items-center justify-center text-center">
-                <MapPin className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
-                <span className="text-xs mt-1 text-white">Route</span>
-              </a>
-              <a href="#gallery" className="flex flex-col items-center justify-center text-center">
-                <Image className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
-                <span className="text-xs mt-1 text-white">Bilder</span>
-              </a>
-              <button 
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="flex flex-col items-center justify-center text-center"
-              >
-                <Menu className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
-                <span className="text-xs mt-1 text-white">Menü</span>
-              </button>
-            </div>
+          <div className="grid grid-cols-5 h-16">
+            <a href="#book" className="flex flex-col items-center justify-center text-center">
+              <Calendar className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
+              <span className="text-xs mt-1 text-white">Buchen</span>
+            </a>
+            <a href="tel:+496221515-0" className="flex flex-col items-center justify-center text-center">
+              <Phone className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
+              <span className="text-xs mt-1 text-white">Anrufen</span>
+            </a>
+            <a href="#route" className="flex flex-col items-center justify-center text-center">
+              <MapPin className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
+              <span className="text-xs mt-1 text-white">Route</span>
+            </a>
+            <a href="#gallery" className="flex flex-col items-center justify-center text-center">
+              <Image className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
+              <span className="text-xs mt-1 text-white">Bilder</span>
+            </a>
+            <button 
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="flex flex-col items-center justify-center text-center"
+            >
+              <Menu className={`h-6 w-6 ${isScrolled ? 'text-hotel-gold' : 'text-white'}`} />
+              <span className="text-xs mt-1 text-white">Menü</span>
+            </button>
           </div>
         </div>
 
