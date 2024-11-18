@@ -17,10 +17,10 @@ export default function Hero() {
         <div className="relative h-full flex items-end pb-16 justify-center text-center text-white px-4">
           <div className="max-w-4xl mb-4">
             <h1 className="text-6xl md:text-7xl font-playfair font-normal mb-6 drop-shadow-lg">
-              Der Europäische Hof
+              Der Europäische Hof Heidelberg
             </h1>
             <p className="text-xl md:text-2xl font-light tracking-wide drop-shadow-lg">
-              #1 auf Tripadvisor in Heidelberg
+             Die #1 auf Tripadvisor in Heidelberg
             </p>
           </div>
         </div>
