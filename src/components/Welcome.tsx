@@ -23,7 +23,12 @@ export default function Welcome() {
             Hier werden Sie (erneut) Ihr Herz an und in Heidelberg verlieren - und an uns.
           </p>
           <p>
-           Was auch immer Sie nach Heidelberg, eine der romantischsten Städte Deutschlands, führt – wir sind hier, um Ihren Aufenthalt unvergesslich zu machen. Damit Sie das Gefühl haben, nie wieder weggehen zu wollen. Ein Ort, der Erinnerungen an eine Zeit weckt, in der die Welt noch in Ordnung war. In unserem privat geführten Luxushotel erleben Sie echte Wertschätzung, tiefe Aufmerksamkeit und eine herzliche Gastfreundschaft, die Sie umhüllt wie die Umarmung eines Freundes. Selbst wenn Ihr Besuch medizinischen Ursprungs ist, finden Sie bei uns und für Ihre Liebsten ein Zuhause – auch in herausfordernden Zeiten.
+           Was auch immer Sie nach Heidelberg, eine der romantischsten Städte Deutschlands, führt – wir sind hier, 
+            um Ihren Aufenthalt unvergesslich zu machen, damit Sie am liebsten gar nicht mehr gehen wollen. 
+            Willkommen an einem Ort, der Erinnerungen an eine Zeit weckt, in der die Welt noch in Ordnung war. 
+            In unserem privat geführten Luxushotel erleben Sie echte Wertschätzung, tiefe Aufmerksamkeit und eine herzliche Gastfreundschaft, 
+            die Sie umhüllt wie die Umarmung eines Freundes. Selbst wenn Ihr Besuch medizinischen Ursprungs ist, finden Sie bei uns für sich
+            und Ihre Begleitung ein Zuhause – auch in schwierigen Zeiten.
           </p>
           <p>
             Holen Sie sich nun einen Vorgeschmack auf das, was Sie bei uns erwartet.
