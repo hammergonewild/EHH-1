@@ -5,59 +5,59 @@ import useInView from '../hooks/useInView';
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1582582621959-48d27397dc69?ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80",
+    src: "/images/sonnendeck.jpg",
     span: "md:col-span-2 md:row-span-2",
-    title: "Hotellobby"
+    title: "Sonnendeck"
   },
   {
-    src: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/kurfuerstenstube.jpg",
     span: "",
-    title: "Deluxe Suite"
+    title: "Kurfürstenstube"
   },
   {
-    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/kaminzimmer.jpg",
     span: "",
-    title: "Restaurant"
+    title: "Kaminzimmer"
   },
   {
-    src: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/sommerrestaurant.jpg",
     span: "md:col-span-2",
-    title: "Panorama SPA"
+    title: "Sommerrestaurant"
   },
   {
-    src: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+    src: "/images/entspannung.jpg",
     span: "",
-    title: "Bar"
+    title: "Entspannung"
   },
   {
-    src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/gym.jpg",
     span: "",
-    title: "Veranstaltungsraum"
+    title: "Fitness Studio"
   },
   {
-    src: "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/sauna.jpg",
     span: "",
-    title: "Wellness Bereich"
+    title: "Sauna"
   },
   {
-    src: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/meeting.jpg",
     span: "",
-    title: "Executive Suite"
+    title: "Meeting & Events"
   },
   {
-    src: "https://images.unsplash.com/photo-1462539405390-d0bdb635c7d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/schloss-nacht.jpg",
     span: "",
-    title: "Frühstücksraum"
+    title: "Heidelberger Schloss bei Nacht"
   },
   {
-    src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/koenigstuhl.jpg",
     span: "",
-    title: "Außenansicht"
+    title: "Königstuhl"
   },
   {
-    src: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    src: "/images/pfalz.jpg",
     span: "",
-    title: "Präsidenten Suite"
+    title: "Kurpfalz"
   }
 ];
 
@@ -75,11 +75,11 @@ export default function ImageGallery() {
             headerInView ? 'is-visible' : ''
           }`}
         >
-          <p className="text-amber-800 text-sm tracking-widest uppercase font-medium mb-4">
+          <p className="text-hotel-gold text-sm tracking-widest uppercase font-medium mb-4">
             Hotel Impressionen
           </p>
-          <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-8">
-            Die beliebtesten Spots unserer Gäste im Hotel, in Heidelberg und drumherum
+          <h2 className="text-3xl md:text-4xl font-karma text-gray-900 mb-8">
+            Die beliebtesten Spots unserer Gäste
           </h2>
         </div>
 
@@ -103,7 +103,7 @@ export default function ImageGallery() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 p-6">
-                  <span className="text-white text-lg font-serif">{image.title}</span>
+                  <span className="text-white text-lg font-karma">{image.title}</span>
                 </div>
               </div>
             </div>
