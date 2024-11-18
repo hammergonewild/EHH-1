@@ -45,7 +45,7 @@ const images = [
     title: "Konferenzräume"
   },
   {
-    src: "/images/schloss-nacht.jpg",
+    src: "/images/schloss-bei-nacht.jpg",
     span: "",
     title: "Heidelberger Schloss bei Nacht"
   },
