@@ -4,31 +4,31 @@ import useInView from '../hooks/useInView';
 
 const mainLinks = [
   {
-    title: "Stilvoll wohnen & himmlisch schlafen",
-    description: "Großzügige, luxuriös eingerichtete Zimmer und Suiten mit antiquem Touch und Betten für höchstem Schlafkomfort (wird verlinkt)",
+    title: "Zimmer & Suiten",
+    description: "Großzügig, luxuriös mit antiquem Touch und Betten von höchstem Schlafkomfort",
     icon: Bed,
-    image: "https://images.heidelberg-location.jpg",
+    image: "/images/quicklinks/zimmer-suiten.jpg",
     link: "#accommodations"
   },
   {
     title: "Gaumenfreuden von früh bis spät",
-    description: "Morgens am beliebten Frühstücksbuffet schlemmen, abends Kulinarik auf Sterne Niveau genießen (wird verlinkt)",
+    description: "Viel gerühmtes Frühstücksbuffet und Restaurant mit Michelin Stern",
     icon: Utensils,
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    image: "/images/quicklinks/restaurant.jpg",
     link: "#dining"
   },
   {
     title: "Panorama SPA, Gym & Wellness",
-    description: "Erholen, entspannen und auspowern mit Blick über die Stadt und den Wald nebenan (wird verlinkt)",
+    description: "Erholen, entspannen und auspowern mit Blick über die Stadt und den Wald nebenan",
     icon: Dumbbell,
-    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    image: "/images/quicklinks/spa.jpg",
     link: "#wellness"
   },
   {
-    title: "Sehenswürdigkeiten fast zum Greifen nah",
-    description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke oder den Philosophenweg erreichen Sie bequem zu Fuß (wird verlinkt)",
+    title: "Perfekte Lage für Entdeckungstouren",
+    description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke erreichen Sie bequem zu Fuß",
     icon: MapPin,
-    image: "https://images.unsplash.com/photo-1696347932229-60d88e325e5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    image: "/images/quicklinks/heidelberg-location.jpg",
     link: "#explore"
   }
 ];
@@ -36,16 +36,16 @@ const mainLinks = [
 const additionalLinks = [
   {
     title: "Stilvoll Feiern & Tagen",
-    description: "Die perfekte Kulisse für Veranstaltungen von denen Ihre Gäste noch Ihren Enkeln vorschwärmen werden (wird verlinkt)",
+    description: "Die perfekte Kulisse für Veranstaltungen von denen Ihre Gäste noch Ihren Enkeln vorschwärmen werden",
     icon: PartyPopper,
-    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    image: "/images/quicklinks/events.jpg",
     link: "#events"
   },
   {
     title: "Bar & Smokers Lounge",
-    description: "Der ideale Rahmen, um bei einem fancy Cocktail oder edlen Tropfen den Tag ausklingen zu lassen (wird verlinkt)",
+    description: "Der ideale Rahmen, um bei einem fancy Cocktail oder edlen Tropfen den Tag ausklingen zu lassen",
     icon: Wine,
-    image: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+    image: "/images/quicklinks/bar.jpg",
     link: "#bar"
   }
 ];
@@ -79,8 +79,8 @@ export default function QuickLinks() {
               </div>
               <div className="relative h-full flex flex-col items-center justify-center text-white p-6 text-center">
                 <Icon className="w-12 h-12 mb-4" />
-                <h3 className="text-2xl font-serif mb-2">{link.title}</h3>
-                <p className="text-sm font-light">{link.description}</p>
+                <h3 className="text-2xl font-karma mb-2">{link.title}</h3>
+                <p className="text-[18px] font-light">{link.description}</p>
               </div>
             </a>
           );
@@ -110,8 +110,8 @@ export default function QuickLinks() {
               </div>
               <div className="relative h-full flex flex-col items-center justify-center text-white p-6 text-center">
                 <Icon className="w-12 h-12 mb-4" />
-                <h3 className="text-2xl font-serif mb-2">{link.title}</h3>
-                <p className="text-sm font-light">{link.description}</p>
+                <h3 className="text-2xl font-karma mb-2">{link.title}</h3>
+                <p className="text-[18px] font-light">{link.description}</p>
               </div>
             </a>
           );
