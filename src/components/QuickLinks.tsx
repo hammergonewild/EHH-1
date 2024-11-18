@@ -7,7 +7,7 @@ const mainLinks = [
     title: "Stilvoll wohnen & himmlisch schlafen",
     description: "Großzügige, luxuriö eingerichtete Zimmer und Suiten mit antiquem Touch und Betten für höchstem Schlafkomfort (wird verlinkt)",
     icon: Bed,
-    image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    image: "https://images.heidelberg-location.jpg",
     link: "#accommodations"
   },
   {
