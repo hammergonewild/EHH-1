@@ -5,12 +5,17 @@ export default function Hero() {
   return (
     <div className="relative">
       <div className="relative h-screen">
-        <div 
-          className="absolute inset-0 bg-cover bg-center transition-opacity duration-1000"
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80')"
-          }}
-        >
+        {/* Video Background */}
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
+          <video 
+            autoPlay 
+            muted 
+            loop 
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/videos/EHH-fuer-Header.mp4" type="video/mp4" />
+          </video>
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/70"></div>
         </div>
         
@@ -20,7 +25,7 @@ export default function Hero() {
               Der Europäische Hof Heidelberg
             </h1>
             <p className="text-xl md:text-2xl font-light tracking-wide drop-shadow-lg">
-             Die #1 auf Tripadvisor in Heidelberg
+              #1 auf Tripadvisor in Heidelberg
             </p>
           </div>
         </div>
