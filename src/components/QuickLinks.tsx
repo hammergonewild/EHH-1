@@ -20,7 +20,7 @@ const mainLinks = [
   {
     title: "Entspannen & Auftanken mit Aussicht",
     description: "Im Panorama SPA schwimmen oder entpannen Sie mit Blick über die Stadt und den Wald nebenan (wird verlinkt)",
-    icon: Dropletsl,
+    icon: Droplets,
     image: "/images/spa.jpg",
     link: "#wellness"
   },
