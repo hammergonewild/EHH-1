@@ -7,28 +7,28 @@ const mainLinks = [
     title: "Zimmer & Suiten",
     description: "Großzügig, luxuriös mit antiquem Touch und Betten von höchstem Schlafkomfort",
     icon: Bed,
-    image: "/images/quicklinks/zimmer-suiten.jpg",
+    image: "/images/zimmer-suiten.jpg",
     link: "#accommodations"
   },
   {
     title: "Gaumenfreuden von früh bis spät",
     description: "Viel gerühmtes Frühstücksbuffet und Restaurant mit Michelin Stern",
     icon: Utensils,
-    image: "/images/quicklinks/restaurant.jpg",
+    image: "/images/restaurant.jpg",
     link: "#dining"
   },
   {
     title: "Panorama SPA, Gym & Wellness",
     description: "Erholen, entspannen und auspowern mit Blick über die Stadt und den Wald nebenan",
     icon: Dumbbell,
-    image: "/images/quicklinks/spa.jpg",
+    image: "/images/spa.jpg",
     link: "#wellness"
   },
   {
     title: "Perfekte Lage für Entdeckungstouren",
     description: "Schloss, Altstadt, der Königstuhl, die Alte Brücke erreichen Sie bequem zu Fuß",
     icon: MapPin,
-    image: "/images/quicklinks/heidelberg-location.jpg",
+    image: "/images/heidelberg.jpg",
     link: "#explore"
   }
 ];
@@ -38,14 +38,14 @@ const additionalLinks = [
     title: "Stilvoll Feiern & Tagen",
     description: "Die perfekte Kulisse für Veranstaltungen von denen Ihre Gäste noch Ihren Enkeln vorschwärmen werden",
     icon: PartyPopper,
-    image: "/images/quicklinks/events.jpg",
+    image: "/images/events.jpg",
     link: "#events"
   },
   {
     title: "Bar & Smokers Lounge",
     description: "Der ideale Rahmen, um bei einem fancy Cocktail oder edlen Tropfen den Tag ausklingen zu lassen",
     icon: Wine,
-    image: "/images/quicklinks/bar.jpg",
+    image: "/images/bar.jpg",
     link: "#bar"
   }
 ];
