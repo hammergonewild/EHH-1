@@ -9,7 +9,7 @@ export default function OwnerGreeting() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.owner-greetings-bg.jpg')"
+          backgroundImage: "url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80')"
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-transparent md:w-1/2 lg:w-1/3"></div>
