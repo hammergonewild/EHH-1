@@ -7,7 +7,7 @@ const images = [
   {
     src: "/images/sonnendeck.jpg",
     span: "md:col-span-2 md:row-span-2",
-    title: "Sonnendeck"
+    title: "Sonnendeck Panorama SPA"
   },
   {
     src: "/images/kurfuerstenstube.jpg",
@@ -27,7 +27,7 @@ const images = [
   {
     src: "/images/entspannung.jpg",
     span: "",
-    title: "Entspannung"
+    title: "Massage & Wellness"
   },
   {
     src: "/images/gym.jpg",
@@ -37,12 +37,12 @@ const images = [
   {
     src: "/images/sauna.jpg",
     span: "",
-    title: "Sauna"
+    title: "Sauna & Dampfsauna"
   },
   {
     src: "/images/meeting.jpg",
     span: "",
-    title: "Meeting & Events"
+    title: "Konferenzräume"
   },
   {
     src: "/images/schloss-nacht.jpg",
@@ -57,7 +57,7 @@ const images = [
   {
     src: "/images/pfalz.jpg",
     span: "",
-    title: "Kurpfalz"
+    title: "Weinverkostung in der Pfalz"
   }
 ];
 
