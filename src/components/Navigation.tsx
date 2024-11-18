@@ -54,17 +54,17 @@ export default function Navigation() {
           isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
         }`}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center h-20">
+            <div className="flex justify-between items-center h-[100px]">
               <div className="flex items-center">
                 <img 
                   src={isScrolled ? "/logos/logo-black.png" : "/logos/logo-white.png"} 
                   alt="Der Europäische Hof"
-                  className="h-12 w-auto"
+                  className="h-20 w-auto"
                 />
               </div>
 
               <div className="flex items-center space-x-8">
-                <div className={`flex space-x-8 text-sm font-medium ${
+                <div className={`flex space-x-8 text-base font-medium ${
                   isScrolled ? 'text-gray-900' : 'text-white'
                 }`}>
                   <div className="relative group">
@@ -114,13 +114,13 @@ export default function Navigation() {
           isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-black/30 backdrop-blur-sm'
         }`}>
           {/* Logo Area */}
-          <div className={`flex justify-center items-center h-20 ${
+          <div className={`flex justify-center items-center h-[100px] ${
             isScrolled ? 'bg-white/95' : 'bg-black/20'
           }`}>
             <img 
               src={isScrolled ? "/logos/logo-black.png" : "/logos/logo-white.png"} 
               alt="Der Europäische Hof"
-              className="h-12 w-auto"
+              className="h-20 w-auto"
             />
           </div>
 
