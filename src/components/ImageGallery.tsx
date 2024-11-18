@@ -20,12 +20,17 @@ const images = [
     title: "Kaminzimmer"
   },
   {
-    src: "/images/sommerrestaurant.jpg",
+    src: "/images/sommer.jpg",
     span: "md:col-span-2",
     title: "Sommerrestaurant"
   },
+    {
+    src: "/images/smokers.jpg",
+    span: "",
+    title: "Smokerslounge"
+  },
   {
-    src: "/images/entspannung.jpg",
+    src: "/images/wellness.jpg",
     span: "",
     title: "Massage & Wellness"
   },
@@ -38,11 +43,6 @@ const images = [
     src: "/images/sauna.jpg",
     span: "",
     title: "Sauna & Dampfsauna"
-  },
-  {
-    src: "/images/meeting.jpg",
-    span: "",
-    title: "Konferenzräume"
   },
   {
     src: "/images/schloss-bei-nacht.jpg",
